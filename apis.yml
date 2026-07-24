@@ -1,8 +1,27 @@
 aid: buildingconnected
 name: Buildingconnected
-description: Buildingconnected is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  BuildingConnected is a preconstruction and bid-management platform for the commercial
+  construction industry, now part of Autodesk Construction Cloud. Its products — Bid Board
+  Pro for general contractors and subcontractors, and TradeTapp for subcontractor risk
+  qualification — help teams send, track, and manage bid invitations across the largest
+  construction network in North America. Autodesk acquired BuildingConnected in 2018, and
+  its data is accessible programmatically through the BuildingConnected API on Autodesk
+  Platform Services (APS), a REST API secured with Autodesk's OAuth 2.0 (two-legged and
+  three-legged) authentication and versioned under a /v2 URI path.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://construction.autodesk.com/products/buildingconnected/
 url: https://raw.githubusercontent.com/api-evangelist/buildingconnected/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,75 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Construction
+- Preconstruction
+- Bid Management
+- Construction Technology
+- Autodesk
+- Autodesk Platform Services
+- Subcontractor Management
+apis:
+- name: BuildingConnected API
+  description: >-
+    REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction
+    data — opportunities, bid packages, and users — versioned under /v2 and secured with
+    Autodesk OAuth 2.0.
+  humanURL: https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/overview/
+  baseURL: https://developer.api.autodesk.com/construction/buildingconnected/v2
+  properties:
+  - type: Documentation
+    url: https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/overview/
+  - type: APIReference
+    url: https://aps.autodesk.com/en/docs/buildingconnected/v2/reference/http/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/buildingconnected-trust-center.yml
+- type: DeveloperPortal
+  url: https://aps.autodesk.com/
+- type: Website
+  url: https://www.buildingconnected.com/
+- type: GettingStarted
+  url: https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/basics/
+- type: Support
+  url: https://aps.autodesk.com/en/support/get-help
+- type: Blog
+  url: https://aps.autodesk.com/blog
+- type: GitHubOrganization
+  url: https://github.com/autodesk-platform-services
+- type: Pricing
+  url: https://www.buildingconnected.com/pricing
+- type: Login
+  url: https://app.buildingconnected.com/
+- type: TermsOfService
+  url: https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement
+- type: StatusPage
+  url: https://health.autodesk.com/
+- type: Authentication
+  url: authentication/buildingconnected-authentication.yml
+- type: OAuthScopes
+  url: scopes/buildingconnected-scopes.yml
+- type: WellKnown
+  url: well-known/buildingconnected-well-known.yml
+- type: Conformance
+  url: conformance/buildingconnected-conformance.yml
+- type: Lifecycle
+  url: lifecycle/buildingconnected-lifecycle.yml
+- type: DomainSecurity
+  url: security/buildingconnected-domain-security.yml
+- type: LLMsTxt
+  url: llms/buildingconnected-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

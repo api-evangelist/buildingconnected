@@ -1,0 +1,41 @@
+# BuildingConnected
+
+> BuildingConnected is a preconstruction and bid-management platform for the commercial construction industry, part of Autodesk Construction Cloud. Its data is accessible through the BuildingConnected API on Autodesk Platform Services (APS), a REST API versioned under /v2 and secured with Autodesk OAuth 2.0.
+
+## APIs
+
+- [BuildingConnected API](https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/overview/): REST API exposing opportunities, bid packages, and users. Base URL https://developer.api.autodesk.com/construction/buildingconnected/v2
+
+## Docs
+
+- [Developer Portal (APS)](https://aps.autodesk.com/)
+- [Overview / Getting Started](https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/basics/)
+- [API Reference](https://aps.autodesk.com/en/docs/buildingconnected/v2/reference/http/)
+- [OAuth 2.0 Guide](https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/overview/)
+- [Support](https://aps.autodesk.com/en/support/get-help)
+- [Blog](https://aps.autodesk.com/blog)
+- [Platform Status](https://health.autodesk.com/)
+
+## Authentication
+
+- OAuth 2.0 via Autodesk Platform Services (two-legged client_credentials and three-legged authorization_code with PKCE S256)
+- Authorization endpoint: https://developer.api.autodesk.com/authentication/v2/authorize
+- Token endpoint: https://developer.api.autodesk.com/authentication/v2/token
+- OIDC discovery: https://developer.api.autodesk.com/.well-known/openid-configuration
+- Scopes: data:read, data:write, data:create, data:search, account:read, account:write, user:read
+
+## Artifacts
+
+- [Authentication profile](authentication/buildingconnected-authentication.yml)
+- [OAuth scopes](scopes/buildingconnected-scopes.yml)
+- [Well-known discovery index](well-known/buildingconnected-well-known.yml)
+- [Conformance](conformance/buildingconnected-conformance.yml)
+- [Lifecycle](lifecycle/buildingconnected-lifecycle.yml)
+
+## Company
+
+- [Website](https://www.buildingconnected.com/)
+- [Product (Autodesk Construction Cloud)](https://construction.autodesk.com/products/buildingconnected/)
+- [Pricing](https://www.buildingconnected.com/pricing)
+- [Application login](https://app.buildingconnected.com/)
+- [GitHub (Autodesk Platform Services)](https://github.com/autodesk-platform-services)

@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://construction.autodesk.com/products/buildingconnected/
+url: https://construction.autodesk.com/products/buildingconnected/
+certifications:
+- GDPR
+evidence:
+- source: https://construction.autodesk.com/products/buildingconnected/
+  keywords:
+  - trust center
+  - gdpr

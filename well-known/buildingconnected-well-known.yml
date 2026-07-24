@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.api.autodesk.com/.well-known/
+host: https://developer.api.autodesk.com
+note: >-
+  developer.api.autodesk.com is the shared Autodesk Platform Services (APS) host that serves
+  the BuildingConnected API (base path /construction/buildingconnected/v2) and its OAuth 2.0
+  authorization server. The discovery documents below are the platform authorization-server
+  metadata used by BuildingConnected.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: buildingconnected-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: buildingconnected-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+buildingconnected_domain:
+  host: https://www.buildingconnected.com
+  security_txt: /.well-known/security.txt 301-redirects to a product marketing page; no RFC 9116 security.txt is published.

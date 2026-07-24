@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.api.autodesk.com/.well-known/openid-configuration
+standards:
+- id: oauth2
+  conforms: true
+  evidence: APS authorization server advertises authorization_code, client_credentials and refresh_token grants (oauth-authorization-server metadata).
+- id: oidc
+  conforms: true
+  evidence: openid-configuration exposes issuer, userinfo, jwks_uri and RS256 id_token signing; openid scope supported.
+- id: rfc8414-oauth-authorization-server-metadata
+  conforms: true
+  evidence: /.well-known/oauth-authorization-server returns 200 with RFC 8414 fields.
+- id: rfc7636-pkce
+  conforms: true
+  evidence: code_challenge_methods_supported includes S256.
+- id: rfc7662-token-introspection
+  conforms: true
+  evidence: introspection_endpoint present in discovery document.
+- id: rfc7009-token-revocation
+  conforms: true
+  evidence: revocation_endpoint present in discovery document.
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: neither developer.api.autodesk.com nor www.buildingconnected.com publishes a /.well-known/security.txt.

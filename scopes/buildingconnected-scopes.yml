@@ -1,0 +1,47 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.api.autodesk.com/.well-known/oauth-authorization-server
+docs: https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/
+note: >-
+  These are the OAuth 2.0 scopes advertised by the shared Autodesk Platform Services (APS)
+  authorization server (scopes_supported) that fronts the BuildingConnected API. The list is
+  platform-wide; the BuildingConnected /v2 endpoints consume the data:* and account:* scopes.
+  Captured verbatim from the live authorization-server metadata — not a per-operation mapping.
+schemes:
+- name: APS OAuth 2.0
+  source: well-known/buildingconnected-oauth-authorization-server.json
+  authorizationUrl: https://developer.api.autodesk.com/authentication/v2/authorize
+  tokenUrl: https://developer.api.autodesk.com/authentication/v2/token
+scopes:
+- scope: data:read
+  description: Read access to Autodesk platform data (BuildingConnected opportunities, bid packages, users).
+- scope: data:write
+  description: Write/update access to platform data.
+- scope: data:create
+  description: Create new platform data resources.
+- scope: data:search
+  description: Search platform data.
+- scope: account:read
+  description: Read account/hub-level information.
+- scope: account:write
+  description: Write account/hub-level information.
+- scope: user:read
+  description: Read the authenticated user's profile.
+- scope: user:write
+  description: Update the authenticated user's profile.
+- scope: user-profile:read
+  description: Read the authenticated user's profile (legacy scope).
+- scope: viewables:read
+  description: Read access to viewable/derivative data.
+- scope: bucket:create
+  description: Create OSS storage buckets.
+- scope: bucket:read
+  description: Read OSS storage buckets.
+- scope: bucket:update
+  description: Update OSS storage buckets.
+- scope: bucket:delete
+  description: Delete OSS storage buckets.
+- scope: code:all
+  description: Design Automation code execution scope.
+- scope: openid
+  description: OpenID Connect authentication scope.

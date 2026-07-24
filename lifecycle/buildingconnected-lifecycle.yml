@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+source: https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/overview/
+versioning:
+  scheme: uri-path
+  current: v2
+  base_path: /construction/buildingconnected/v2
+  docs: https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/overview/
+status_page: https://health.autodesk.com/
+notes: >-
+  The BuildingConnected API is versioned in the URI path (/v2) on the Autodesk Platform
+  Services host. Platform health/status is published at health.autodesk.com. No
+  BuildingConnected-specific deprecation-policy or SLA page was located during this pass.
