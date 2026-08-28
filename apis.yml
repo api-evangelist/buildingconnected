@@ -9,6 +9,17 @@ description: >-
   its data is accessible programmatically through the BuildingConnected API on Autodesk
   Platform Services (APS), a REST API secured with Autodesk's OAuth 2.0 (two-legged and
   three-legged) authentication and versioned under a /v2 URI path.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
