@@ -1,12 +1,12 @@
 generated: '2026-10-14'
 method: searched
 checked:
-- procore/integrations/procore-integration-edges.yml
+- power-bi/integrations/power-bi-integration-edges.yml
 source:
-- procore/integrations/procore-integration-edges.yml
+- power-bi/integrations/power-bi-integration-edges.yml
 edges:
-- partner_name: Procore (own)
-  partner: procore
+- partner_name: Power BI (own)
+  partner: power-bi
   partner_match: mirror
   mirror_match: domain
   type: marketplace
@@ -14,11 +14,11 @@ edges:
   direction: third-party
   channel: partner-built
   marketplace: own
-  evidence: https://marketplace.procore.com/apps/buildingconnected
-  mirror_of: procore/integrations/procore-integration-edges.yml
+  evidence: https://learn.microsoft.com/en-us/power-query/connectors/buildingconnected
+  mirror_of: power-bi/integrations/power-bi-integration-edges.yml
   apps:
-  - BuildingConnected
+  - BuildingConnected & TradeTapp
   listing_count: 1
-  detected: '2026-10-14'
+  detected: '2026-10-19'
   detected_by: mirror-platform-listings.py
-  category: Bidding
+  category: Online
