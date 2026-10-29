@@ -64,6 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Buildingconnected is a company surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+BuildingConnected is a preconstruction and bid-management platform for the commercial construction industry, now part of Autodesk Construction Cloud. Its products — Bid Board Pro for general contractors and subcontractors, and TradeTapp for subcontractor risk qualification — help teams send, track, and manage bid invitations across the largest construction network in North America. Autodesk acquired BuildingConnected in 2018, and its data is accessible programmatically through the BuildingConnected API on Autodesk Platform Services (APS), a REST API secured with Autodesk's OAuth 2.0 (two-legged and three-legged) authentication and versioned under a /v2 URI path.
 
-Backed by: lightspeed-venture-partners
+**Areas:** Company · Construction · Preconstruction · Bid Management · Construction Technology · Autodesk · Autodesk Platform Services · Subcontractor Management
+
+## Buildingconnected on APIs.io
+
+Everything profiled for Buildingconnected is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/buildingconnected/](https://apis.io/providers/buildingconnected/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [BuildingConnected API](https://apis.io/apis/buildingconnected/buildingconnected-api/) — REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction data — opportunities, bid packages, and users — versioned under /v2…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Buildingconnected Authentication](https://apis.io/security/buildingconnected/buildingconnected-authentication/)
+- [Buildingconnected Domain Security](https://apis.io/security/buildingconnected/buildingconnected-domain-security/)
+- [Buildingconnected Trust Center](https://apis.io/security/buildingconnected/buildingconnected-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Buildingconnected Scopes](https://apis.io/scopes/buildingconnected/buildingconnected-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.buildingconnected.com/)
+- [Getting started](https://aps.autodesk.com/en/docs/buildingconnected/v2/developers_guide/basics/)
+- [Pricing](https://www.buildingconnected.com/pricing)
+- [Support](https://aps.autodesk.com/en/support/get-help)
+- [Blog](https://aps.autodesk.com/blog)
+- [Terms of service](https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service)
+- [Privacy policy](https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement)
+- [GitHub](https://github.com/autodesk-platform-services)
+- [Status](https://health.autodesk.com/)
+
+## API Evangelist rating
+
+**Kin Score 34.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 35.5 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 39.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/buildingconnected/](https://apis.io/providers/buildingconnected/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Buildingconnected: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/buildingconnected/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
